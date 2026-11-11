@@ -200,3 +200,155 @@ section{
     font-size:25px;
     margin:auto 0px;
 }
+@media (max-width:768px){
+    *{
+        box-sizing:border-box;
+    }
+    #header{
+        height:auto;
+        padding:4px 8px;
+        flex-flow:row wrap;
+        align-items:center;
+        justify-content:flex-start;
+        gap:6px;
+    }
+    #header-img{
+        width:30px;
+        height:auto;
+        margin:0px;
+    }
+    #header i{
+        font-size:13px;
+        margin:0px;
+    }
+    #nav-bar{
+        position:static;
+        display:flex;
+        flex-wrap:nowrap;
+        align-items:center;
+        justify-content:center;
+        gap:12px;
+        width:100%;
+    }
+    .nav-link{
+        margin:0px;
+        font-size:11px;
+    }
+    section{
+        padding-top:40px;
+    }
+    h1{
+        margin:25px 15px;
+        font-size:16px;
+    }
+    h2{
+        margin:0px 0px 10px 0px;
+        text-align:center;
+    }
+    form{
+        min-width:0px;
+        width:92%;
+        height:auto;
+        flex-direction:column;
+        align-items:center;
+        padding:15px;
+    }
+    form img{
+        width:100%;
+        max-width:220px;
+        height:auto;
+    }
+    form div{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+    }
+    input{
+        width:90%;
+        max-width:240px;
+    }
+    #quotes{
+        margin:20px 15px;
+        gap:35px;
+    }
+    #quotes div{
+        min-width:0px;
+        width:100%;
+        height:auto;
+        flex-direction:column;
+        align-items:center;
+        font-size:16px;
+    }
+    #quotes img{
+        width:100%;
+        max-width:260px;
+        height:auto;
+    }
+    blockquote{
+        min-width:0px;
+        width:100%;
+        margin:0px;
+        text-align:center;
+    }
+    #products{
+        margin:20px 15px 60px 15px;
+        gap:40px;
+    }
+    #products>div{
+        height:auto;
+        width:100%;
+        flex-direction:column;
+    }
+    #products div div{
+        height:auto;
+        width:100%;
+        flex-flow:column nowrap;
+        padding-bottom:15px;
+        border-right:3px solid rgb(86, 102, 86);
+    }
+    .ufo{
+        min-width:0px;
+        width:100%;
+        height:auto;
+        font-size:22px;
+        letter-spacing:4px;
+        padding:10px;
+    }
+    .ufo + span{
+        height:auto;
+        font-size:15px !important;
+        padding:12px;
+    }
+    .buy,.buy:hover{
+        min-width:0px;
+        width:85%;
+        height:45px;
+        font-size:20px;
+        letter-spacing:4px;
+    }
+    video{
+        width:100%;
+        height:auto;
+        border-left:3px solid rgb(86, 102, 86);
+        border-top:none;
+    }
+    .rare video{
+        border-left:3px solid #bf953f;
+        border-top:none;
+    }
+    .epic video{
+        border-left:4px solid;
+        border-top:none;
+    }
+    footer{
+        height:auto;
+        padding:20px 10px;
+        text-align:center;
+    }
+    footer p{
+        position:static;
+        margin:0px;
+    }
+}
